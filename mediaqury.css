@@ -102,7 +102,34 @@
     .nav-links li a {
         font-size: 1rem;
     }
+    .menu-links{
+        display: flex;
+        height: 4rem;
+    }
+    .hamburger-icon{
+        display: flex;
+    }
+    .menu-links a{
+        font-size: 0.8rem;
+        /* display: inline-block; */
+        
+    }
+    /* .hamburger-icon.open
+span:first-child {
+   display: none;
 
+}
+
+.hamburger-icon.open
+span:nth-child(2) {
+   display: none;
+
+}
+
+.hamburger-icon.open
+span:last-child {
+    display: none;
+} */
     .experience-sub-title {
         font-size: 1.25rem;
 

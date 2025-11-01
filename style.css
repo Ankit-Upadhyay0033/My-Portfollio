@@ -91,17 +91,19 @@ a:hover {
     height: 2px;
     background-color: black;
     transition: all 0.3 ease-in-out;
+    
 }
 
 .menu-links {
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.00);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    text-align: center;
 }
 
 .menu-links a {
