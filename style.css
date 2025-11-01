@@ -57,9 +57,9 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-    font-size: 2rem;
-
+.logo img {
+   height:6rem;
+   border-radius: 100%;
 }
 
 a:hover {
