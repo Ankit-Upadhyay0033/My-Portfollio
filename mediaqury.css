@@ -10,10 +10,10 @@
 }
 
 @media screen and (max-width:1200px) {
-    #desktop-nav {
+    /* #desktop-nav {
         display: none;
 
-    }
+    } */
 
     #hamburger-nav {
         display: flex;
@@ -52,19 +52,38 @@
   
 }
 
-@media screen and (max-width:1200px) {
-    #desktop-nav {
-        display: none;
 
-    }
-
-    #hamburger-nav {
-        display: flex;
-
-    }
-}
 
 @media screen and (max-width:600px) {
+        .nav-links {
+            display: flex;
+            list-style: none;
+            overflow-x:auto; /* Horizontal scroll अगर items ज्यादा हैं */
+            max-width: calc(90% - 120px); /* Logo के लिए space */
+            scrollbar-width: thin; /*Firefox के लिए thin scrollbar*/
+        }
+        .navi{
+             max-width: calc(100% - 100px);
+        }
+
+        .nav-links::-webkit-scrollbar {
+            height: 5px; /* Chrome/Safari के लिए thin scrollbar */
+        }
+
+        .menu::-webkit-scrollbar-thumb {
+            background: #ffffff;
+        }
+
+        .nav-links li {
+            margin-left: 0.7rem;
+            display: list-item; /* Specified property */
+            unicode-bidi: isolate; /* Specified property */
+            flex-shrink: 0; /* Items shrink na karein */
+        }
+        .nav-links li  {
+            padding-bottom: 1rem;
+            gap: 0.5rem;
+        }
 
     #Contact,
     footer {
@@ -114,22 +133,7 @@
         /* display: inline-block; */
         
     }
-    /* .hamburger-icon.open
-span:first-child {
-   display: none;
-
-}
-
-.hamburger-icon.open
-span:nth-child(2) {
-   display: none;
-
-}
-
-.hamburger-icon.open
-span:last-child {
-    display: none;
-} */
+    
     .experience-sub-title {
         font-size: 1.25rem;
 
@@ -139,11 +143,11 @@ span:last-child {
         font-size: 1.5rem;
     }
 
-    .nav-links {
+    /* .nav-links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
-    }
+    } */
 
     .section--pic-container {
         width: auto;

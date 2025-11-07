@@ -1,0 +1,30 @@
+/* .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f3f3f3;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        } */
+
+        /* Logo */
+       
+
+        /* Menu items - अब horizontal scroll के लिए overflow-x: auto */
+ 
+
+        /* .menu a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            white-space: nowrap; /* Text wrap na kare */
+        
+
+        /* .menu a:hover {
+            background-color: #555;
+        } */
