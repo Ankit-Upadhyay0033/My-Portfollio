@@ -13,7 +13,7 @@
 
 <body>
     <nav class="menu">
-        <div class="logo"> <img src="Ankit.png" alt="logo"></div>
+        <div class="logo"> <img src="/Ankit.png" alt="logo"></div>
         <div>
             <ul class="nav-links">
                <li><a href="#About">About</a></li>
@@ -23,8 +23,6 @@
                  
             </ul>
         </div>
-
-
     </nav>
     <!-- <nav id="hamburger-nav">
 
@@ -46,29 +44,40 @@
     </nav> -->
 
     <section id="profile">
-        <div class="section--pic-container">
-            <img src="image.png" alt="Ankit Upadhyay profile picture">
+    <!-- TEXT LEFT -->
+    <div class="section--text">
+      <p class="section-text-p1">Hello, I'm</p>
+      <h1 class="title">Ankit Upadhyay</h1>
+      <p class="section-text-p2">Frontend Developer</p>
 
-        </div>
-        <div class="section--text">
-            <p class="section-text-p1">Hello, I'am</p>
-            <h1 class="title">Ankit Upadhyay</h1>
-            <p class="section-text-p2">Fronted Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('/Ankit-Resume.pdf')">
+          Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#Contact'">
+          Contact Info
+        </button>
+      </div>
 
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('/Ankit-Resume .pdf')">Resume</button>
-                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Info</button>
-            </div>
+      <div id="social-container">
+        <img
+          src="linkedin.webp"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com'"
+        />
+        <img
+          src="github.webp"
+          class="icon"
+          onclick="location.href='https://github.com'"
+        />
+      </div>
+    </div>
 
-            <div id="social-container">
-                <img src="linkedin.webp" alt="My linkidin profile" class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/ankit-upadhyay-39a95730b'">
-                <img src="github.webp" alt="github profile" class="icon"
-                    onclick="location.href='https://github.com/Ankit-Upadhyay0033'">
-
-            </div>
-        </div>
-    </section>
+    <!-- IMAGE RIGHT -->
+    <div class="section--pic-container">
+      <img src="image.png" alt="profile" />
+    </div>
+  </section>
 
     <section id="About">
         <p class="section-text-p1"> Get to know more</p>
