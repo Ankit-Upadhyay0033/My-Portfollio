@@ -31,7 +31,7 @@ A simple task management application with add, edit, and delete functionality.
 ## 📫 Contact
 
 - **Name:** Ankit Upadhyay
-- **Email:** your-email@example.com
+- **Email:** upadhyayankit175@gmail.com
 - **GitHub:** https://github.com/your-username
 - **LinkedIn:** https://linkedin.com/in/your-username
 
