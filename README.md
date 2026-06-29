@@ -33,7 +33,7 @@ A simple task management application with add, edit, and delete functionality.
 - **Name:** Ankit Upadhyay
 - **Email:** upadhyayankit175@gmail.com
 - **GitHub:** https://github.com/ankit-upadhyay0033
-- **LinkedIn:** https://linkedin.com/in/ankit-upadhyay
+- **LinkedIn:** https://linkedin.com/in/ankit-upadhyay39a
 
 ## 📄 License
 
